@@ -1,0 +1,4 @@
+Invoking command in '/home/virtual/project/webots_ros2/simple/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/virtual/project/webots_ros2/simple/build/my_package -- -j4 -l4
+Invoked command in '/home/virtual/project/webots_ros2/simple/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/virtual/project/webots_ros2/simple/build/my_package -- -j4 -l4
+Invoking command in '/home/virtual/project/webots_ros2/simple/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/virtual/project/webots_ros2/simple/build/my_package
+Invoked command in '/home/virtual/project/webots_ros2/simple/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/virtual/project/webots_ros2/simple/build/my_package

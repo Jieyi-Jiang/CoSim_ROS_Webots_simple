@@ -1,0 +1,278 @@
+[0.000000] (-) TimerEvent: {}
+[0.000326] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000437] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.014875] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.015934] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'build'}
+[0.017219] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/virtual/project/webots_ros2/simple/build/my_package', '--', '-j4', '-l4'], 'cwd': '/home/virtual/project/webots_ros2/simple/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'virtual'), ('SSH_CLIENT', '192.168.253.1 3170 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/virtual/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/virtual/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/virtual'), ('TERM_PROGRAM_VERSION', '1.96.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-47d242b8-bbab-4ac6-9451-d6fb54e1b966.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/virtual/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/virtual/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'virtual'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '8'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/virtual/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-13b699bcdc.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('WEBOTS_HOME', '/usr/local/webots'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/virtual/project/webots_ros2/simple/build/my_package'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.253.1 3170 192.168.253.130 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.074474] (my_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098031] (-) TimerEvent: {}
+[0.198652] (-) TimerEvent: {}
+[0.297350] (my_package) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.299106] (-) TimerEvent: {}
+[0.343319] (my_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.348378] (my_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.359305] (my_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.375654] (my_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.399825] (-) TimerEvent: {}
+[0.400409] (my_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.459465] (my_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.461222] (my_package) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500524] (-) TimerEvent: {}
+[0.601216] (-) TimerEvent: {}
+[0.646549] (my_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.701961] (-) TimerEvent: {}
+[0.733964] (my_package) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.755696] (my_package) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[0.785599] (my_package) StdoutLine: {'line': b'-- Found webots_ros2_driver: 2023.1.3 (/home/virtual/project/webots_ros2/webots_ros2_test/install/webots_ros2_driver/share/webots_ros2_driver/cmake)\n'}
+[0.802379] (-) TimerEvent: {}
+[0.828757] (my_package) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.830672] (my_package) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.903057] (-) TimerEvent: {}
+[1.003965] (-) TimerEvent: {}
+[1.104580] (-) TimerEvent: {}
+[1.175757] (my_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.205154] (-) TimerEvent: {}
+[1.263017] (my_package) StdoutLine: {'line': b'-- Generating done\n'}
+[1.276213] (my_package) StdoutLine: {'line': b'-- Build files have been written to: /home/virtual/project/webots_ros2/simple/build/my_package\n'}
+[1.305490] (-) TimerEvent: {}
+[1.335458] (my_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_package\x1b[0m\n'}
+[1.354615] (my_package) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/obstacle_avoider.dir/src/ObstacleAvoider.cpp.o\x1b[0m\n'}
+[1.375782] (my_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_package.dir/src/MyRobotDriver.cpp.o\x1b[0m\n'}
+[1.406028] (-) TimerEvent: {}
+[1.506796] (-) TimerEvent: {}
+[1.607465] (-) TimerEvent: {}
+[1.708588] (-) TimerEvent: {}
+[1.809642] (-) TimerEvent: {}
+[1.910683] (-) TimerEvent: {}
+[2.011314] (-) TimerEvent: {}
+[2.112481] (-) TimerEvent: {}
+[2.213188] (-) TimerEvent: {}
+[2.314252] (-) TimerEvent: {}
+[2.415074] (-) TimerEvent: {}
+[2.516086] (-) TimerEvent: {}
+[2.617586] (-) TimerEvent: {}
+[2.718787] (-) TimerEvent: {}
+[2.819641] (-) TimerEvent: {}
+[2.921093] (-) TimerEvent: {}
+[3.021984] (-) TimerEvent: {}
+[3.122973] (-) TimerEvent: {}
+[3.224064] (-) TimerEvent: {}
+[3.324971] (-) TimerEvent: {}
+[3.425749] (-) TimerEvent: {}
+[3.526672] (-) TimerEvent: {}
+[3.628096] (-) TimerEvent: {}
+[3.728625] (-) TimerEvent: {}
+[3.829723] (-) TimerEvent: {}
+[3.930690] (-) TimerEvent: {}
+[4.031515] (-) TimerEvent: {}
+[4.132434] (-) TimerEvent: {}
+[4.233876] (-) TimerEvent: {}
+[4.335376] (-) TimerEvent: {}
+[4.435920] (-) TimerEvent: {}
+[4.537136] (-) TimerEvent: {}
+[4.638042] (-) TimerEvent: {}
+[4.738767] (-) TimerEvent: {}
+[4.839564] (-) TimerEvent: {}
+[4.940805] (-) TimerEvent: {}
+[5.041920] (-) TimerEvent: {}
+[5.142769] (-) TimerEvent: {}
+[5.243793] (-) TimerEvent: {}
+[5.344687] (-) TimerEvent: {}
+[5.445924] (-) TimerEvent: {}
+[5.546577] (-) TimerEvent: {}
+[5.647779] (-) TimerEvent: {}
+[5.748707] (-) TimerEvent: {}
+[5.849622] (-) TimerEvent: {}
+[5.950954] (-) TimerEvent: {}
+[6.051999] (-) TimerEvent: {}
+[6.153370] (-) TimerEvent: {}
+[6.179310] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:13:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMyRobotDriver\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[6.179762] (my_package) StderrLine: {'line': b'   13 | void \x1b[01;31m\x1b[KMyRobotDriver\x1b[m\x1b[K::init(\n'}
+[6.180082] (my_package) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.180322] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:13:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvariable or field \xe2\x80\x98\x1b[01m\x1b[Kinit\x1b[m\x1b[K\xe2\x80\x99 declared void\n'}
+[6.180467] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:14:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kwebots_ros2_driver\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[6.180604] (my_package) StderrLine: {'line': b'   14 |     \x1b[01;31m\x1b[Kwebots_ros2_driver\x1b[m\x1b[K::WebotsNode *node,\n'}
+[6.180729] (my_package) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.186957] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:14:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.187373] (my_package) StderrLine: {'line': b'   14 |     webots_ros2_driver::WebotsNode *\x1b[01;31m\x1b[Knode\x1b[m\x1b[K,\n'}
+[6.187547] (my_package) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.187842] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:15:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[6.188034] (my_package) StderrLine: {'line': b'   15 |     std::unordered_map<std::string, std::string> \x1b[01;31m\x1b[K&\x1b[m\x1b[Kparameters) {\n'}
+[6.188166] (my_package) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.193182] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:15:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kparameters\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.193411] (my_package) StderrLine: {'line': b'   15 |     std::unordered_map<std::string, std::string> &\x1b[01;31m\x1b[Kparameters\x1b[m\x1b[K) {\n'}
+[6.193533] (my_package) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.193643] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:31:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMyRobotDriver\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[6.193772] (my_package) StderrLine: {'line': b'   31 | void \x1b[01;31m\x1b[KMyRobotDriver\x1b[m\x1b[K::cmdVelCallback(\n'}
+[6.194033] (my_package) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.206473] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid my_robot_driver::cmdVelCallback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.206943] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:33:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcmd_vel_msg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.207093] (my_package) StderrLine: {'line': b'   33 |   \x1b[01;31m\x1b[Kcmd_vel_msg\x1b[m\x1b[K.linear = msg->linear;\n'}
+[6.207190] (my_package) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.207274] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:\x1b[m\x1b[K At global scope:\n'}
+[6.207360] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:37:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMyRobotDriver\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[6.207444] (my_package) StderrLine: {'line': b'   37 | void \x1b[01;31m\x1b[KMyRobotDriver\x1b[m\x1b[K::step() {\n'}
+[6.207525] (my_package) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.214084] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid my_robot_driver::step()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.214377] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:38:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcmd_vel_msg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.214509] (my_package) StderrLine: {'line': b'   38 |   auto forward_speed = \x1b[01;31m\x1b[Kcmd_vel_msg\x1b[m\x1b[K.linear.x;\n'}
+[6.214611] (my_package) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.221339] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:48:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kleft_motor\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.221678] (my_package) StderrLine: {'line': b'   48 |   wb_motor_set_velocity(\x1b[01;31m\x1b[Kleft_motor\x1b[m\x1b[K, command_motor_left);\n'}
+[6.221831] (my_package) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.227597] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:49:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kright_motor\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.227831] (my_package) StderrLine: {'line': b'   49 |   wb_motor_set_velocity(\x1b[01;31m\x1b[Kright_motor\x1b[m\x1b[K, command_motor_right);\n'}
+[6.228109] (my_package) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.251319] (my_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56\x1b[m\x1b[K,\n'}
+[6.251677] (my_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40\x1b[m\x1b[K,\n'}
+[6.251794] (my_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:53\x1b[m\x1b[K:\n'}
+[6.251921] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:\x1b[m\x1b[K At global scope:\n'}
+[6.252007] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:54:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMyRobotDriver\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_driver\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[6.252175] (my_package) StderrLine: {'line': b'   54 | PLUGINLIB_EXPORT_CLASS(my_robot_driver::\x1b[01;31m\x1b[KMyRobotDriver\x1b[m\x1b[K,\n'}
+[6.252230] (my_package) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.253986] (-) TimerEvent: {}
+[6.257029] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:55:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kwebots_ros2_driver\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[6.257273] (my_package) StderrLine: {'line': b'   55 |                        \x1b[01;31m\x1b[Kwebots_ros2_driver\x1b[m\x1b[K::PluginInterface)\n'}
+[6.257410] (my_package) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.271653] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[K{anonymous}::ProxyExec0::ProxyExec0()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.272232] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:54:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_derived\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.272413] (my_package) StderrLine: {'line': b'   54 | \x1b[01;31m\x1b[KPLUGINLIB_EXPORT_CLASS\x1b[m\x1b[K(my_robot_driver::MyRobotDriver,\n'}
+[6.272579] (my_package) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.283481] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:54:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_base\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.284290] (my_package) StderrLine: {'line': b'   54 | \x1b[01;31m\x1b[KPLUGINLIB_EXPORT_CLASS\x1b[m\x1b[K(my_robot_driver::MyRobotDriver,\n'}
+[6.284464] (my_package) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.284601] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:54:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KregisterPlugin<<expression error>, <expression error> >(const char [31], const char [36])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.284860] (my_package) StderrLine: {'line': b'   54 | \x1b[01;31m\x1b[KPLUGINLIB_EXPORT_CLASS\x1b[m\x1b[K(my_robot_driver::MyRobotDriver,\n'}
+[6.285024] (my_package) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.285169] (my_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55\x1b[m\x1b[K,\n'}
+[6.285323] (my_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40\x1b[m\x1b[K,\n'}
+[6.285430] (my_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:53\x1b[m\x1b[K:\n'}
+[6.285529] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class Derived, class Base> void class_loader::impl::registerPlugin(const string&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.285635] (my_package) StderrLine: {'line': b'  210 | void \x1b[01;36m\x1b[KregisterPlugin\x1b[m\x1b[K(const std::string & class_name, const std::string & base_class_name)\n'}
+[6.285731] (my_package) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.285819] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.285928] (my_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56\x1b[m\x1b[K,\n'}
+[6.286046] (my_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40\x1b[m\x1b[K,\n'}
+[6.286162] (my_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:53\x1b[m\x1b[K:\n'}
+[6.286271] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:54:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.286520] (my_package) StderrLine: {'line': b'   54 | \x1b[01;31m\x1b[KPLUGINLIB_EXPORT_CLASS\x1b[m\x1b[K(my_robot_driver::MyRobotDriver,\n'}
+[6.286664] (my_package) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.286784] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:54:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[6.354596] (-) TimerEvent: {}
+[6.455589] (-) TimerEvent: {}
+[6.556707] (-) TimerEvent: {}
+[6.657509] (-) TimerEvent: {}
+[6.758899] (-) TimerEvent: {}
+[6.860192] (-) TimerEvent: {}
+[6.961208] (-) TimerEvent: {}
+[7.062156] (-) TimerEvent: {}
+[7.163301] (-) TimerEvent: {}
+[7.264853] (-) TimerEvent: {}
+[7.366238] (-) TimerEvent: {}
+[7.467555] (-) TimerEvent: {}
+[7.568756] (-) TimerEvent: {}
+[7.669836] (-) TimerEvent: {}
+[7.771243] (-) TimerEvent: {}
+[7.873265] (-) TimerEvent: {}
+[7.974766] (-) TimerEvent: {}
+[8.075783] (-) TimerEvent: {}
+[8.176908] (-) TimerEvent: {}
+[8.277801] (-) TimerEvent: {}
+[8.379056] (-) TimerEvent: {}
+[8.479944] (-) TimerEvent: {}
+[8.580699] (-) TimerEvent: {}
+[8.681518] (-) TimerEvent: {}
+[8.782244] (-) TimerEvent: {}
+[8.882885] (-) TimerEvent: {}
+[8.983821] (-) TimerEvent: {}
+[9.084487] (-) TimerEvent: {}
+[9.185274] (-) TimerEvent: {}
+[9.285977] (-) TimerEvent: {}
+[9.386518] (-) TimerEvent: {}
+[9.487823] (-) TimerEvent: {}
+[9.589086] (-) TimerEvent: {}
+[9.690145] (-) TimerEvent: {}
+[9.791771] (-) TimerEvent: {}
+[9.892793] (-) TimerEvent: {}
+[9.993822] (-) TimerEvent: {}
+[10.095049] (-) TimerEvent: {}
+[10.196646] (-) TimerEvent: {}
+[10.297765] (-) TimerEvent: {}
+[10.398770] (-) TimerEvent: {}
+[10.499832] (-) TimerEvent: {}
+[10.601313] (-) TimerEvent: {}
+[10.702787] (-) TimerEvent: {}
+[10.804109] (-) TimerEvent: {}
+[10.905690] (-) TimerEvent: {}
+[10.926710] (my_package) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/my_package.dir/build.make:76: CMakeFiles/my_package.dir/src/MyRobotDriver.cpp.o] Error 1\n'}
+[10.927478] (my_package) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/my_package.dir/all] Error 2\n'}
+[10.927791] (my_package) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[11.006288] (-) TimerEvent: {}
+[11.107244] (-) TimerEvent: {}
+[11.208134] (-) TimerEvent: {}
+[11.309202] (-) TimerEvent: {}
+[11.410329] (-) TimerEvent: {}
+[11.510977] (-) TimerEvent: {}
+[11.611782] (-) TimerEvent: {}
+[11.712692] (-) TimerEvent: {}
+[11.813772] (-) TimerEvent: {}
+[11.914785] (-) TimerEvent: {}
+[12.015524] (-) TimerEvent: {}
+[12.117816] (-) TimerEvent: {}
+[12.218835] (-) TimerEvent: {}
+[12.319937] (-) TimerEvent: {}
+[12.420753] (-) TimerEvent: {}
+[12.521748] (-) TimerEvent: {}
+[12.623338] (-) TimerEvent: {}
+[12.723965] (-) TimerEvent: {}
+[12.825016] (-) TimerEvent: {}
+[12.925798] (-) TimerEvent: {}
+[13.026664] (-) TimerEvent: {}
+[13.128018] (-) TimerEvent: {}
+[13.228880] (-) TimerEvent: {}
+[13.329632] (-) TimerEvent: {}
+[13.430720] (-) TimerEvent: {}
+[13.531767] (-) TimerEvent: {}
+[13.632517] (-) TimerEvent: {}
+[13.733481] (-) TimerEvent: {}
+[13.834609] (-) TimerEvent: {}
+[13.935489] (-) TimerEvent: {}
+[14.036359] (-) TimerEvent: {}
+[14.137593] (-) TimerEvent: {}
+[14.239004] (-) TimerEvent: {}
+[14.339936] (-) TimerEvent: {}
+[14.440750] (-) TimerEvent: {}
+[14.541580] (-) TimerEvent: {}
+[14.642507] (-) TimerEvent: {}
+[14.743558] (-) TimerEvent: {}
+[14.844725] (-) TimerEvent: {}
+[14.945357] (-) TimerEvent: {}
+[15.046482] (-) TimerEvent: {}
+[15.147726] (-) TimerEvent: {}
+[15.248714] (-) TimerEvent: {}
+[15.349401] (-) TimerEvent: {}
+[15.450136] (-) TimerEvent: {}
+[15.550831] (-) TimerEvent: {}
+[15.651720] (-) TimerEvent: {}
+[15.752699] (-) TimerEvent: {}
+[15.853441] (-) TimerEvent: {}
+[15.954645] (-) TimerEvent: {}
+[16.055322] (-) TimerEvent: {}
+[16.156317] (-) TimerEvent: {}
+[16.257288] (-) TimerEvent: {}
+[16.358096] (-) TimerEvent: {}
+[16.458779] (-) TimerEvent: {}
+[16.559457] (-) TimerEvent: {}
+[16.593025] (my_package) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable obstacle_avoider\x1b[0m\n'}
+[16.659773] (-) TimerEvent: {}
+[16.760656] (-) TimerEvent: {}
+[16.861587] (-) TimerEvent: {}
+[16.962814] (-) TimerEvent: {}
+[17.063821] (-) TimerEvent: {}
+[17.164679] (-) TimerEvent: {}
+[17.265501] (-) TimerEvent: {}
+[17.295525] (my_package) StdoutLine: {'line': b'[ 75%] Built target obstacle_avoider\n'}
+[17.298609] (my_package) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[17.303342] (my_package) CommandEnded: {'returncode': 2}
+[17.326641] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 2}
+[17.337747] (-) EventReactorShutdown: {}

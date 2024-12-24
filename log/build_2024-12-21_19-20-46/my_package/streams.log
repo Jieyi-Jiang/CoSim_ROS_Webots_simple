@@ -1,0 +1,100 @@
+[0.022s] Invoking command in '/home/virtual/project/webots_ros2/simple/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/virtual/project/webots_ros2/simple/build/my_package -- -j4 -l4
+[0.074s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.297s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.343s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.348s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.359s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.375s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.400s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.459s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.461s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.646s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.734s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.755s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[0.785s] -- Found webots_ros2_driver: 2023.1.3 (/home/virtual/project/webots_ros2/webots_ros2_test/install/webots_ros2_driver/share/webots_ros2_driver/cmake)
+[0.829s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.830s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.175s] -- Configuring done
+[1.263s] -- Generating done
+[1.276s] -- Build files have been written to: /home/virtual/project/webots_ros2/simple/build/my_package
+[1.335s] [35m[1mConsolidate compiler generated dependencies of target my_package[0m
+[1.354s] [ 25%] [32mBuilding CXX object CMakeFiles/obstacle_avoider.dir/src/ObstacleAvoider.cpp.o[0m
+[1.376s] [ 50%] [32mBuilding CXX object CMakeFiles/my_package.dir/src/MyRobotDriver.cpp.o[0m
+[6.179s] [01m[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:13:6:[m[K [01;31m[Kerror: [m[K‘[01m[KMyRobotDriver[m[K’ has not been declared
+[6.179s]    13 | void [01;31m[KMyRobotDriver[m[K::init(
+[6.180s]       |      [01;31m[K^~~~~~~~~~~~~[m[K
+[6.180s] [01m[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:13:6:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kinit[m[K’ declared void
+[6.180s] [01m[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:14:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kwebots_ros2_driver[m[K’ has not been declared
+[6.180s]    14 |     [01;31m[Kwebots_ros2_driver[m[K::WebotsNode *node,
+[6.180s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.187s] [01m[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:14:37:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+[6.187s]    14 |     webots_ros2_driver::WebotsNode *[01;31m[Knode[m[K,
+[6.187s]       |                                     [01;31m[K^~~~[m[K
+[6.187s] [01m[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:15:50:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K&[m[K’ token
+[6.188s]    15 |     std::unordered_map<std::string, std::string> [01;31m[K&[m[Kparameters) {
+[6.188s]       |                                                  [01;31m[K^[m[K
+[6.193s] [01m[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:15:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kparameters[m[K’ was not declared in this scope
+[6.193s]    15 |     std::unordered_map<std::string, std::string> &[01;31m[Kparameters[m[K) {
+[6.193s]       |                                                   [01;31m[K^~~~~~~~~~[m[K
+[6.193s] [01m[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:31:6:[m[K [01;31m[Kerror: [m[K‘[01m[KMyRobotDriver[m[K’ has not been declared
+[6.194s]    31 | void [01;31m[KMyRobotDriver[m[K::cmdVelCallback(
+[6.194s]       |      [01;31m[K^~~~~~~~~~~~~[m[K
+[6.206s] [01m[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:[m[K In function ‘[01m[Kvoid my_robot_driver::cmdVelCallback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[6.207s] [01m[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:33:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_vel_msg[m[K’ was not declared in this scope
+[6.207s]    33 |   [01;31m[Kcmd_vel_msg[m[K.linear = msg->linear;
+[6.207s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[6.207s] [01m[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:[m[K At global scope:
+[6.207s] [01m[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:37:6:[m[K [01;31m[Kerror: [m[K‘[01m[KMyRobotDriver[m[K’ has not been declared
+[6.207s]    37 | void [01;31m[KMyRobotDriver[m[K::step() {
+[6.207s]       |      [01;31m[K^~~~~~~~~~~~~[m[K
+[6.214s] [01m[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:[m[K In function ‘[01m[Kvoid my_robot_driver::step()[m[K’:
+[6.214s] [01m[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:38:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_vel_msg[m[K’ was not declared in this scope
+[6.214s]    38 |   auto forward_speed = [01;31m[Kcmd_vel_msg[m[K.linear.x;
+[6.214s]       |                        [01;31m[K^~~~~~~~~~~[m[K
+[6.221s] [01m[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:48:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft_motor[m[K’ was not declared in this scope
+[6.221s]    48 |   wb_motor_set_velocity([01;31m[Kleft_motor[m[K, command_motor_left);
+[6.221s]       |                         [01;31m[K^~~~~~~~~~[m[K
+[6.227s] [01m[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:49:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kright_motor[m[K’ was not declared in this scope
+[6.228s]    49 |   wb_motor_set_velocity([01;31m[Kright_motor[m[K, command_motor_right);
+[6.228s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[6.251s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+[6.251s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[6.251s]                  from [01m[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:53[m[K:
+[6.251s] [01m[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:[m[K At global scope:
+[6.252s] [01m[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:54:41:[m[K [01;31m[Kerror: [m[K‘[01m[KMyRobotDriver[m[K’ in namespace ‘[01m[Kmy_robot_driver[m[K’ does not name a type
+[6.252s]    54 | PLUGINLIB_EXPORT_CLASS(my_robot_driver::[01;31m[KMyRobotDriver[m[K,
+[6.252s]       |                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[6.257s] [01m[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:55:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kwebots_ros2_driver[m[K’ does not name a type
+[6.257s]    55 |                        [01;31m[Kwebots_ros2_driver[m[K::PluginInterface)
+[6.257s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.272s] [01m[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:[m[K In constructor ‘[01m[K{anonymous}::ProxyExec0::ProxyExec0()[m[K’:
+[6.272s] [01m[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:54:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_derived[m[K’ was not declared in this scope
+[6.272s]    54 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(my_robot_driver::MyRobotDriver,
+[6.272s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.284s] [01m[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:54:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_base[m[K’ was not declared in this scope
+[6.284s]    54 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(my_robot_driver::MyRobotDriver,
+[6.284s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.284s] [01m[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:54:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KregisterPlugin<<expression error>, <expression error> >(const char [31], const char [36])[m[K’
+[6.284s]    54 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(my_robot_driver::MyRobotDriver,
+[6.285s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.285s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[6.285s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[6.285s]                  from [01m[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:53[m[K:
+[6.285s] [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived, class Base> void class_loader::impl::registerPlugin(const string&, const string&)[m[K’
+[6.285s]   210 | void [01;36m[KregisterPlugin[m[K(const std::string & class_name, const std::string & base_class_name)
+[6.285s]       |      [01;36m[K^~~~~~~~~~~~~~[m[K
+[6.285s] [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.286s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+[6.286s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[6.286s]                  from [01m[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:53[m[K:
+[6.286s] [01m[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:54:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.286s]    54 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(my_robot_driver::MyRobotDriver,
+[6.286s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.286s] [01m[K/home/virtual/project/webots_ros2/simple/src/my_package/src/MyRobotDriver.cpp:54:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[10.927s] gmake[2]: *** [CMakeFiles/my_package.dir/build.make:76: CMakeFiles/my_package.dir/src/MyRobotDriver.cpp.o] Error 1
+[10.927s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/my_package.dir/all] Error 2
+[10.927s] gmake[1]: *** Waiting for unfinished jobs....
+[16.593s] [ 75%] [32m[1mLinking CXX executable obstacle_avoider[0m
+[17.295s] [ 75%] Built target obstacle_avoider
+[17.298s] gmake: *** [Makefile:146: all] Error 2
+[17.303s] Invoked command in '/home/virtual/project/webots_ros2/simple/build/my_package' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/virtual/project/webots_ros2/simple/build/my_package -- -j4 -l4
